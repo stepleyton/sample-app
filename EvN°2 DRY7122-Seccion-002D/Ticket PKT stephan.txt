@@ -1,0 +1,18 @@
+X-Auth-Token = NC-51-050cd78d531d497d9076-nbi
+----------------------------------------http://localhost:58000/api/v1/ticket (Post)
+{
+    "username": "admin",
+    "password": "admin123!"
+}
+(NC-51-050cd78d531d497d9076-nbi)
+----------------------------------------http://localhost:58000/api/v1/topology/physical-topology (Get)
+----------------------------------------http://localhost:58000/api/v1/user (POST)
+{
+    "username": "Prueba2.",
+    "password": "SDN.2023.",
+    "authorization": [
+        {
+            "role": "ROLE_ADMIN"
+        }
+    ]
+}
